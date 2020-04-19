@@ -159,7 +159,6 @@ def user_input():
 
         if args.search:  # construct url
             args.url = 'https://www.bing.com/images/search?q=%s' % args.search.replace(' ', '%20')
-            args.image_directory = args.search.replace(' ', '_')
 
         arguments = vars(args)
         records = []
