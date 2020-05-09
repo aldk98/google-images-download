@@ -16,8 +16,16 @@ cd google-images-download
 pip install -U -r requirements.txt
 ```
 
-# Use
+# Usage in this fork
+```zsh
+# in the repo directory, type:
+python3 bing_scraper.py -o [OUTPUT_DIRECTORY] --image_directory [SUBDIR]  --search '[SEARCH_QUERY]' --limit [MAX_IMAGES] --download --chromedriver [CHROMEDRIVER_LOCATION]
+```
 
+SEARCH_QUERY : yes, use '' (Single quotes) to encapsulate your seach query (To escape "")
+
+CHROMEDRIVER_LOCATION : e.g. ~/chromedriver (Check your chromedriver version with google chrome version)
+# Use
 1. Install/update Chrome: https://www.google.com/chrome/
 
 2. Install/update chromedriver: https://chromedriver.chromium.org/
@@ -47,6 +55,9 @@ Downloading images...
 Done with 0 errors in 37.1s. All images saved to /Users/glennjocher/PycharmProjects/google-images-download/images
 ```
 <img src="https://user-images.githubusercontent.com/26833433/75287228-dcf2ca80-57ce-11ea-9557-cc13abaff453.jpg" width="">
+
+# Usage 
+
 
 # Cite
 
